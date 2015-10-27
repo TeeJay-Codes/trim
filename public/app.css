@@ -1,0 +1,48 @@
+/*
+    Created on : 26-Oct-2015, 20:29:35
+    Author     : ADETUNJI
+*/
+
+body, input {
+    font: 0.9em Tahoma, sans-serif;
+}
+
+.title{
+    font-weight: normal;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 0;
+}
+
+input[type="url"] {
+    width: 300px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
